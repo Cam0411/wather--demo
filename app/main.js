@@ -49,11 +49,7 @@ const api = {
       hightLowWeather.innerText = `${Math.round(weather.main.temp_min)}°c  /  ${Math.round(weather.main.temp_max)}°c`
       presure.innerHTML = `<i class="fas fa-tint"></i> ${Math.round(weather.main.pressure)}`
       humidity.innerHTML = `<i class="fas fa-tint-slash"></i> ${Math.round(weather.main.humidity)}`
-    } 
-  
-function changeBackground(){
-   
-    if ( weather_main.innerText == "Clouds"){
+          if ( weather_main.innerText == "Clouds"){
         document.body.style.background = "linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url('https://www.desktopbackground.org/download/1024x600/2010/06/11/31550_laptop-1366x768-vector-wallpapers-desktop-backgrounds-hd_1366x768_h.jpg') no-repeat  fixed,  center  "
         document.body.style.backgroundSize = "cover";
       }else if (weather_main.innerText == "Clear"){
@@ -61,6 +57,11 @@ function changeBackground(){
         document.body.style.backgroundSize = "cover"
       }
    
+    } 
+  
+function changeBackground(){
+   
+
     
 }
 changeBackground()

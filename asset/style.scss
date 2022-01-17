@@ -101,7 +101,7 @@ body
             font-weight: 700;
             position: absolute;
             left: 0;
-            bottom: 9.5%;
+            bottom: 10%;
             padding: 5px 10px;
             font-size: 30px;
         } 
@@ -113,7 +113,7 @@ body
         left: 0;
         bottom: 5%;
         padding: 5px 10px;
-        font-size: 20px;
+        font-size: 17px;
         opacity: 0.4;
        }
        .weather__sub 
@@ -176,5 +176,35 @@ body
     .main__app 
     {
         width: 40%;
+    }
+}
+@media (max-height:600px){
+    .main__app 
+    {
+        width: 80%;
+        .location 
+        {
+            .city 
+            {
+                font-size: 20px;
+            }
+        }
+        .weather__app
+        {
+            .temp 
+            {
+                font-size: 40px;
+            }
+            .weather 
+            {
+                font-size: 20px;
+                position: absolute;
+                bottom: 12%;
+            }
+            .min__max-temp 
+            {
+                font-size: 17px;
+            }
+        }
     }
 }

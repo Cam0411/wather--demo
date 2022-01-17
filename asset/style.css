@@ -131,7 +131,7 @@ body {
   font-weight: 700;
   position: absolute;
   left: 0;
-  bottom: 10%;
+  bottom: 9.5%;
   padding: 5px 10px;
   font-size: 30px;
 }
@@ -167,6 +167,15 @@ body {
 @media (max-width: 729px) {
   .main__app {
     width: 80%;
+  }
+  .main__app .location .city {
+    font-size: 25px;
+  }
+  .main__app .weather__app .temp {
+    font-size: 55px;
+  }
+  .main__app .weather__app .weather {
+    font-size: 25px;
   }
 }
 

@@ -101,7 +101,7 @@ body
             font-weight: 700;
             position: absolute;
             left: 0;
-            bottom: 10%;
+            bottom: 9.5%;
             padding: 5px 10px;
             font-size: 30px;
         } 
@@ -138,7 +138,27 @@ body
     .main__app 
     {
         width: 80%;
+        .location 
+        {
+            .city 
+            {
+                font-size: 25px;
+            }
+        }
+        .weather__app
+        {
+            .temp 
+            {
+                font-size: 55px;
+            }
+            .weather 
+            {
+                font-size: 25px;
+           
+            }
+        }
     }
+   
 }
 @media (max-width:429px){
     .main__app 
